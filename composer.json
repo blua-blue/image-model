@@ -1,0 +1,19 @@
+{
+    "name": "blua-blue/image-model",
+    "description": "Image file model",
+    "minimum-stability": "dev",
+    "require": {
+        "mnsami/composer-custom-directory-installer": "1.1.*",
+        "neoan3-apps/db": "dev-master",
+        "neoan3-apps/dbexception": "dev-master",
+        "neoan3-apps/ops": "dev-master"
+    },
+    "license": "MIT",
+    "extra": {
+        "installer-paths": {
+            "./frame/{$name}": [],
+            "./model/{$name}": [],
+            "./component/{$name}": []
+        }
+    }
+}
