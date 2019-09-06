@@ -1,5 +1,5 @@
 {
-    "name": "blua-blue/image-model",
+    "name": "blua-blue/image",
     "description": "Image file model",
     "minimum-stability": "dev",
     "require": {
