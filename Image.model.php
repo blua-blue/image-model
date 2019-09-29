@@ -29,7 +29,7 @@ class ImageModel extends IndexModel {
             if(!is_dir($directory)){
                 mkdir($directory,0755);
             }
-            $path = '/'.Ops::hash(22).'.'.end($fileType);
+            $path = '/'.Ops::randomString(22).'.'.end($fileType);
             file_put_contents($directory.$path,base64_decode($newImageRaw));
             $newId = Db::uuid()->uuid;
             $newImage = [
