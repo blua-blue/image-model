@@ -4,7 +4,7 @@
     "minimum-stability": "dev",
     "require": {
         "mnsami/composer-custom-directory-installer": "1.1.*||2.0.*",
-        "neoan3-apps/db": "^0.2",
+        "neoan3-apps/db": "^0.3",
         "neoan3-apps/ops": "^1"
     },
     "license": "MIT",
